@@ -31,3 +31,45 @@ body{
     background-color: black;
     color: #ffffff;
 }
+
+footer{
+    margin: auto;
+    width: auto;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.link{
+    color: white !important;
+    text-decoration: none;
+}
+.copy{
+    width: 100%;
+    border-top: .5px solid;
+    margin-top: 10px;
+}
+.address{
+    margin: 0;
+}
+.address p{
+    margin: 0;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.s-icon{
+    width: 30px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.footer-item{
+    display: flex;
+    gap: 20px;
+}
