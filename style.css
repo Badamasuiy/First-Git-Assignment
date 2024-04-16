@@ -73,3 +73,25 @@ footer{
     display: flex;
     gap: 20px;
 }
+.banner{
+    display: flex;
+    contain: content;
+    width: auto;
+}
+.imaging{
+    contain: content;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.style-row1{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 15px;
+    width: auto;
+    height: 585px;
+    contain:content;
+}
